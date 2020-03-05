@@ -13,7 +13,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 public class UserServlet extends javax.servlet.http.HttpServlet {
     private static final Logger log = getLogger(UserServlet.class);
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/users.jsp").forward(request,response);
+        request.getRequestDispatcher("/Users.jsp").forward(request,response);
         log.debug("UserServletRedirect");
     }
 }
